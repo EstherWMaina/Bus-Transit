@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   #stkpush route
   post 'stkpush', to: 'mpesas#stkpush'
 
+  #stk query
+  post 'stkquery', to: 'mpesas#stkquery'
+
   # Defines the root path route ("/")
   # root "articles#index"
 end
